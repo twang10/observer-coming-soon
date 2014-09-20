@@ -5,12 +5,54 @@
 .coming-soon {
     font-family: "Helvetica Neue";
     line-height: 1;
+    color: white;
 }
 
 .subtitle {
     font-family: "Helvetica Neue";
-    font-size: 17pt;
-    font-weight: 300;
+    font-weight: 100;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.subtitle a {
+    color: yellow;
+}
+
+html { 
+    background: url(/img/bg.png) repeat center top fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#bg-overlay {
+    background: url(/img/blue.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.buttons a {
+    cursor: pointer;
+    -webkit-filter:none;
+    filter:none;
+}
+
+.buttons a:hover {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+    /* IE 6-9 */
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
 }
 
 
@@ -147,7 +189,12 @@ nav a:hover {
 
 .coming-soon {
     text-align: left;
-    font-size: 24pt;
+    font-size: 30px;
+}
+
+.subtitle {
+    font-size: 17px;
+    line-height: 1.5;
 }
 
 
@@ -194,6 +241,10 @@ nav a:hover {
     font-size: 48px;
     font-family: "Helvetica Neue";
     line-height: 1;
+}
+
+.subtitle {
+    font-size: 24px;
 }
     
 .main {
