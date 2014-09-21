@@ -20,7 +20,7 @@
 }
 
 html { 
-    background: url(/img/bg.png) repeat center top fixed; 
+    background: url('http://tuftsobserver.org/coming-soon/img/bg.png') repeat center top fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -28,7 +28,7 @@ html {
 }
 
 #bg-overlay {
-    background: url(/img/blue.png) no-repeat center center fixed; 
+    background: url('http://tuftsobserver.org/coming-soon/img/blue.png') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
