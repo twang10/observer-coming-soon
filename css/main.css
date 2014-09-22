@@ -38,22 +38,6 @@ html {
     min-width: 100%;
 }
 
-a {
-    cursor: pointer;
-    -webkit-filter:none;
-    filter:none;
-}
-
-a:hover {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-    filter: gray;
-    /* IE 6-9 */
-    -moz-transition: all 0.2s ease-in;
-    -o-transition: all 0.2s ease-in;
-    -webkit-transition: all 0.2s ease-in;
-    transition: all 0.2s ease-in;
-}
 
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
 
@@ -234,6 +218,23 @@ nav a:hover {
 /* ====================
     INTERMEDIATE: Menu
    ==================== */
+
+a {
+    cursor: pointer;
+    -webkit-filter:none;
+    filter:none;
+}
+
+a:hover {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+    /* IE 6-9 */
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
 
 .coming-soon {
     text-align: center;
