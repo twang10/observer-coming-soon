@@ -10,7 +10,7 @@
 
 .subtitle {
     font-family: "Helvetica Neue";
-    font-weight: 100;
+    font-weight: 300;
     color: white;
     letter-spacing: 2px;
 }
@@ -38,13 +38,13 @@ html {
     min-width: 100%;
 }
 
-.buttons a {
+a {
     cursor: pointer;
     -webkit-filter:none;
     filter:none;
 }
 
-.buttons a:hover {
+a:hover {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     filter: gray;
@@ -54,7 +54,6 @@ html {
     -webkit-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
 }
-
 
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
 
@@ -245,10 +244,11 @@ nav a:hover {
 
 .subtitle {
     font-size: 24px;
+    font-weight: 100;
 }
     
 .main {
-    transform: translateY(25%);
+    transform: translateY(15%);
 }
     nav a {
         float: left;
